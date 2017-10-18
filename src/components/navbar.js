@@ -4,10 +4,10 @@ import { Navbar, Nav, NavItem } from 'react-bootstrap';
 export default class NavBar extends Component {
   render(){
     return(
-      <Navbar inverse collapseOnSelect>
+      <Navbar inverse fixedTop collapseOnSelect >
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#"><img src={process.env.PUBLIC_URL + 'favicon.ico'}/></a>
+            <a href="#"><img className="navbar-logo" src={process.env.PUBLIC_URL + '/img/LOGO.png'}/></a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

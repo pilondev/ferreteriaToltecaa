@@ -8,11 +8,15 @@
   padding: 0 15px;
   height: 80px;
   line-height: 80px;
-  display: flex;
   align-items: center;
+  background:#F7BF17;
+}
+.navbar-brand:hover {
+  background:#F7BF17!important;
 }
 .navbar-brand>img {
   padding: 7px 14px;
+  width:210px;
 }
 .navbar-inverse {
   background-color: #1B2726;
