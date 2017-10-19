@@ -1,0 +1,19 @@
+.carrousel-marks > * .carousel-indicators{
+  z-index: -12;
+}
+
+.carrousel-marks > * .carousel-inner{
+  height:120px;
+}
+
+
+.carrousel-marks > * .carousel-inner > .item {
+    height: 150px;
+    position: relative;
+}
+
+.carrousel-marks > * .carousel-inner img {
+  margin: 0px auto;
+  height: 100px;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.back-logo{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 740px;
+  width: 200px;
+}
+.btn-inicio{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 57%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 740px;
+  width: 200px;
+}
+.btn-inicio:hover{
+  color:#F7BF17;
+  background: #191919;
+}
+.btn-inicio > a{
+  text-decoration: none;
+}
+.btn-inicio > a:hover{
+  text-decoration: none;
+  color:#F7BF17;
+}

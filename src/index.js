@@ -8,6 +8,11 @@ import reducers from './reducers';
 // CSS
 import './css/index.css';
 import './css/navbar.css';
+import './css/carrousel-marks.css';
+import './css/whoAu.css';
+import './css/ourC.css';
+import './css/back-section.css';
+
 
 // COMPONENTS
 import App from './App';
@@ -19,3 +24,4 @@ ReactDOM.render(
     <App />
   </Provider>
   , document.getElementById('root'));
+  registerServiceWorker();

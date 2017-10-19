@@ -1,3 +1,5 @@
+/*************** GENERAL ****************/
+
 body {
   margin: 0;
   padding: 0;
@@ -7,34 +9,78 @@ body {
   margin:0;
   padding:0;
 }
-.primary-header-yellow{
-  color: #F7BF17;
+.min-height-sections-500{
+  min-height:500px;
 }
-.yellow-header-company{
-  padding:40px;
+
+.padding-30{
+  padding:30px;
 }
+
+.padding-20{
+  padding:20px;
+}
+
+/*************** FONTS ****************/
+.weight-bold{
+  font-weight: bold;
+}
+.font-23{
+  font-size:23px;
+}
+.spacing-10{
+  letter-spacing: 10px;
+}
+
+/*************** COLOR TEXT ****************/
+
 .white-text{
   color:white;
 }
 .black-text{
   color:#1B2726;
 }
-.quienes-somos{
-  padding:20px;
+.yellow-text{
+  color: #F7BF17;
 }
-.quienes-somos-img{
-  padding:35px;
+.grey-text{
+  color:#9d9d9d;
 }
-.quienes-somos-img img{
-  width:320px;
-}
+
+/*************** BACKGROUNDS ****************/
+
 .yellow-section{
   background: #F7BF17;
 }
-.yellow-section img{
-  width:150px;
-  padding: 20px;
+.black-background{
+  background: #191919;
 }
-.padding-30{
-  padding:30px;
+.yellow-background{
+  background: #F7BF17;
+}
+
+/*************** MEDIA QUERYS ****************/
+
+@media (max-width: 33.9em) {
+  .quienes-somos-img img{
+    width:200px;
+  }
+  .btn-inicio{
+    top: 80%!important;
+  }
+  .carousel-inner{
+    margin-top: 80px;
+  }
+ }
+@media (max-width: 47.9em) {
+  .btn-inicio{
+    top: 72%!important;
+  }
+}
+@media (max-width: 61.9em) {
+  .btn-inicio{
+    top: 72%!important;
+  }
+}
+@media (max-width: 74.9em) {
 }
